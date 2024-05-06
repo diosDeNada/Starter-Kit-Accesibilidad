@@ -1,0 +1,50 @@
+.homePage_Section {
+  margin: 80px auto 0;
+  width: 70%;
+  text-align: center;
+}
+
+.homePage_Section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.homePage_Section h2 {
+  margin-bottom: 10px;
+}
+
+.homePage_Section p {
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.homePage_Section .preExamples {
+  margin-bottom: 0;
+}
+
+.homePage_Section ul {
+  margin-bottom: 20px;
+}
+
+.homePage_Section li {
+  list-style: none;
+  margin: 10px auto;
+}
+
+.homePage_Section li::before {
+  content: '🫧'
+}
+
+.homePage_Section a {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.homePage_Section a:hover {
+  color: black;
+  background-color: gainsboro;
+  border: 1px solid black;
+}

@@ -1,0 +1,40 @@
+.ul_NavBar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* border: 5px black solid; */
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: rgb(237, 237, 237); */
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: radial-gradient(circle at center center, #e0dddd, #e5e5f7), repeating-radial-gradient(circle at center center, #e0dddd, #e0dddd, 14px, transparent 28px, transparent 14px);
+  background-blend-mode: multiply;
+}
+
+.ul_NavBar li {
+  list-style: none;
+  margin: 10px;
+  border: 3px solid rgb(86, 85, 85);
+  background: white;
+  border-radius: 20px;
+  padding: 10px;
+  transition: background-color 0.5s ease;
+  text-align: center;
+}
+
+.ul_NavBar li:hover {
+  background-color: gainsboro;
+}
+
+.ul_NavBar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+}
