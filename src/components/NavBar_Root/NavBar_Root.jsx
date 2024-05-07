@@ -11,7 +11,7 @@ export default function NavBar() {
 
 
   return (
-    <>
+    <section className={styles.rootPage}>
       <header>
         <nav className={styles.NavBar}>
           <ul className={styles.ul_NavBar}>
@@ -35,6 +35,6 @@ export default function NavBar() {
         <Footer />
       </footer>
 
-    </>
+    </section>
   )
 }

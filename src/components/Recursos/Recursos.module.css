@@ -1,8 +1,9 @@
 .recursos_Section {
-  margin: 80px auto 20px;
+  margin: 65px auto 20px;
   text-align: center;
   width: 70%;
   line-height: 1.5rem;
+  padding-top: 10px;
 }
 
 .recursos_Section h1 {

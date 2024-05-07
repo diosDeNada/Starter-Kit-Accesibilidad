@@ -4,6 +4,10 @@
   margin: 0;
   font-family: Arial, monospace, sans-serif;
 }
+
+p {
+  font-size: 1.1rem;
+}
   /* 
 body {
 
